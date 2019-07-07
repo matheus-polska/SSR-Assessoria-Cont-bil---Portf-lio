@@ -1,0 +1,212 @@
+%items-center {
+    align-items: center;
+}
+
+%justify-center {
+    justify-content: center;
+}
+
+%items-around {
+    justify-content: space-around;
+}
+
+%items-between {
+    justify-content: space-between
+}
+
+%center-all {
+    justify-content: center;
+    align-items: center;
+}
+
+.full-height {
+    height: 100%;
+}
+
+.center-content-vertically {
+    display: flex;
+    align-items: center;
+}
+
+.center-content-horizontally {
+    justify-content: center;
+   
+}
+
+//PADDINGS
+//PADDING IN ALL THE SIDES;
+.p-all-sm {
+    padding: 14px;
+}
+
+.p-all-md {
+    padding: 16px;
+}
+
+.p-all-lg {
+    padding: 20px;
+}
+
+//---//
+
+//SEPARATED PADDING SM
+.p-l-sm {
+    padding-left: 14px;
+}
+
+.p-r-sm {
+    padding-right: 14px;
+}
+
+.p-t-sm {
+    padding-top: 14px;
+}
+
+.p-b-sm {
+    padding-bottom: 14px;
+}
+
+//---//
+
+//SEPARATED PADDING MD
+.p-l-md {
+    padding-left: 16px;
+}
+
+.p-r-md {
+    padding-right: 16px;
+}
+
+.p-t-md {
+    padding-top: 16px;
+}
+
+.p-b-md {
+    padding-bottom: 16px;
+}
+
+//---//
+
+//SEPARATED PADDING LG
+.p-l-lg {
+    padding-left: 20px;
+}
+
+.p-r-lg {
+    padding-right: 20px;
+}
+
+.p-t-lg {
+    padding-top: 20px;
+}
+
+.p-b-lg {
+    padding-bottom: 20px;
+}
+
+//SEPARATED PADDING XL
+.p-l-xl {
+    padding-left: 46px;
+}
+
+.p-r-xl {
+    padding-right: 46px;
+}
+
+.p-t-xl {
+    padding-top: 46px;
+}
+
+.p-b-xl {
+    padding-bottom: 46px;
+}
+
+//---//
+
+//MARGINS//
+//MARGIN IN ALL THE SIDES;
+.m-all-sm {
+    margin: 14px;
+}
+
+.m-all-md {
+    margin: 16px;
+}
+
+.m-all-lg {
+    margin: 20px;
+}
+
+//---//
+
+//SEPARATED MARGIN SM
+.m-l-sm {
+    margin-left: 14px;
+}
+
+.m-r-sm {
+    margin-right: 14px;
+}
+
+.m-t-sm {
+    margin-top: 14px;
+}
+
+.m-b-sm {
+    margin-bottom: 14px;
+}
+
+//---//
+
+//SEPARATED MARGIN MD
+.m-l-md {
+    margin-left: 16px;
+}
+
+.m-r-md {
+    margin-right: 16px;
+}
+
+.m-t-md {
+    margin-top: 16px;
+}
+
+.m-b-md {
+    margin-bottom: 16px;
+}
+
+//---//
+
+//SEPARATED MARGIN LG
+.m-l-lg {
+    margin-left: 20px;
+}
+
+.m-r-lg {
+    margin-right: 20px;
+}
+
+.m-t-lg {
+    margin-top: 20px;
+}
+
+.m-b-lg {
+    margin-bottom: 20px;
+}
+
+//SEPARATED MARGIN XL
+.m-l-xl {
+    margin-left: 46px;
+}
+
+.m-r-xl {
+    margin-right: 46px;
+}
+
+.m-t-xl {
+    margin-top: 46px;
+}
+
+.m-b-xl {
+    margin-bottom: 46px;
+}

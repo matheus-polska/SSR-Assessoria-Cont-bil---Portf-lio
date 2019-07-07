@@ -1,0 +1,76 @@
+@import 'grid-break-points';
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    @include clearfix();
+}
+
+.container::after {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    @include clearfix();
+}
+
+[class*="col-"] {
+    width: 100%;
+    min-height: 1px;
+    @include clearfix();
+}
+
+@media #{$breakpoint-small} {
+    .container {
+        width: 95%;
+    }
+
+    @for $i from 1 through $grid-columns {
+        .col-sm-#{$i} {
+            width: 100% / $grid-columns * $i;
+        }
+    }
+}
+
+@media #{$breakpoint-medium} {
+
+    @for $i from 1 through $grid-columns {
+        .col-md-#{$i} {
+            width: 100% / $grid-columns * $i;
+        }
+    }
+}
+
+@media #{$breakpoint-large} {
+
+    @for $i from 1 through $grid-columns {
+        .col-lg-#{$i} {
+            width: 100% / $grid-columns * $i;
+        }
+    }
+
+    .container {
+        width: 90%;
+    }
+
+}
+
+@media #{$breakpoint-xl} {
+
+    @for $i from 1 through $grid-columns {
+        .col-xl-#{$i} {
+            width: 100% / $grid-columns * $i;
+        }
+    }
+
+    .container {
+        width: 90%;
+    }
+
+}

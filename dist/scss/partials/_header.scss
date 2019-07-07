@@ -1,0 +1,64 @@
+header {
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.8) 30%, rgba(245, 153, 153, 0.4) 90%), url(../../img/header.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    height: calc(100vh - 10vh);
+
+    .header-wrapper {
+        height: 100%;
+    }
+
+    .call-to-header {
+        h1 {
+            color: $fc-header;
+            text-transform: uppercase;
+            font-family: $ff-secondary;
+            font-weight: bold;
+            font-size: 46px;
+
+            @include mq(768px) {
+                font-size: 30px;
+            }
+        }
+
+        p {
+            color: $fc-header;
+
+            @include mq(768px) {
+                font-size: 15px;
+            }
+        }
+
+        a {
+            background: $fc-secondary;
+            width: 164px;
+            display: block;
+            text-align: center;
+            text-transform: uppercase;
+            color: $fc-header;
+            font-weight: 500;
+            border-radius: 10px;
+
+            @include mq(768px) {
+                width: 137px;
+                padding: 10px;
+            }
+        }
+    }
+
+    .header-picture {
+        width: 60%;
+        height: 80%;
+        margin: auto;
+        background: #808ef5;
+        border-radius: 0 0 100px 100px;
+        background-image: url(#{$assetPath}/header-calculadora.png);
+        background-size: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+
+        @include mq(768px) {
+            display: none;
+        }
+    }
+}

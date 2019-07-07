@@ -1,0 +1,31 @@
+.dpt-fiscal-wrapper {
+    width: 100%;
+    @extend %items-center;
+
+    .dpt-fiscal-picture img {
+        display: block;
+        width: 100%;
+        @include mq(768px) {
+            width: 60%;
+            margin: auto;
+        }
+    }
+
+    .dpt-fiscal-card {
+        text-align: center;
+        background: $fc-dark;
+        color: white;
+        transition: transform 300ms ease;
+        font-size: 16px;
+        @include cardShadow();
+        &:hover {
+            transform: scale(1.1);
+        }
+
+        .card-icon,
+        span {
+            display: block;
+            width: 100%;
+        }
+    }
+}
